@@ -153,3 +153,87 @@ body{
 .links{
     color:black;
 }
+@media (max-width:992px){
+    .container{
+        max-width: 772px;
+    }
+}
+@media (max-width:800px){
+    .container{
+        max-width: 650px;
+    }
+}
+@media (max-width:685px){
+    .flex1{
+        flex-wrap: wrap;
+        height:750px;
+        justify-content: center;
+    }
+    .flex2{
+        flex-wrap: wrap;
+        height:750px;
+        justify-content: center;
+    }
+    .main__height{
+        height:750px;
+    }
+    .main__height2{
+        height: 750px;
+    }
+    .container{
+        max-width: 550px;
+    }
+}
+@media (max-width:585px){
+    .container{
+        max-width: 450px;
+    }
+}
+@media (max-width:485px){
+    .container{
+        max-width: 400px;
+    }
+}
+@media (max-width:450px){
+    .container{
+        max-width: 400px;
+    }
+    .nav{
+        flex-wrap:wrap;
+    }
+}
+@media (max-width:432px){
+    .container{
+        max-width: 350px;
+    }
+    .header__title{
+        text-align: center;
+    }
+    .flex1{
+        flex-wrap: wrap;
+        height:850px;
+        justify-content: center;
+    }
+    .flex2{
+        flex-wrap: wrap;
+        height:850px;
+        justify-content: center;
+    }
+    .main__height{
+        height:850px;
+    }
+    .main__height2{
+        height: 850px;
+    }
+    .header__intro{
+        height: 600px;
+    }
+    .flex{
+        height: 500px;
+    }
+}
+@media (max-width:374px){
+    .container{
+        max-width: 300px;
+    }
+}
