@@ -1,0 +1,155 @@
+body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 950px;
+}
+
+.nav{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: #f44336;
+    z-index: 1;
+    box-shadow: 0px 2px 20px 5px rgb(0 0 0 / 16%),0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.link{
+    padding: 15px 20px;
+    background-color: #f44336;
+    text-decoration: none;
+    color:white;
+    display: fixed;
+    font-size: 20px;
+    transition: 0.2s all linear;
+
+}
+.link:first-child{
+    background-color: white;
+    color: black;
+    transition: 0.2s all linear;
+}
+.link:hover{
+    background-color: white;
+    color: black;
+}
+.link:first-child:hover{
+    background-color: lightgray;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+.header__intro{
+    height: 500px;
+    background-color:#f44336 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__title{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    font-size: 65px;
+}
+.header__subtitle{
+    color:white;
+    font-size: 25px;
+    margin: 30px auto;
+}
+.header__button{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 15px 35px;
+    background-color: black;
+    transition: 0.2s all linear;
+}
+.header__button:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+.main__height{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+}
+.main__title{
+    color:black;
+    font-size: 50px;
+}
+.main__subtitle1{
+    color:black;
+    margin: 40px auto;
+ 
+}
+.main__subtitle2{
+    color:black;
+    opacity: 0.75;
+}
+.flex2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    height: 500px;
+}
+.main__height2{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: #f1f1f1;
+}
+.after__main{
+    height:150px;
+    color: white;
+    background-color: #666;
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    height: 270px;
+    display: flex;
+    justify-content: center;
+}
+.footer__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__links:hover{
+   opacity:0.75;
+}
+.flex3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 270px;
+}
+.footer__title{
+    margin-top: 30px;
+    
+}
+.links{
+    color:black;
+}
